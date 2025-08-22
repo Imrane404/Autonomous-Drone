@@ -1,0 +1,56 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtualenv
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# ==============================
+# Webots
+# ==============================
+# Backup and temporary files
+*.wbo
+*.wbt~
+*.bak
+*.tmp
+*.swp
+
+# Simulation cache
+*.hash
+*.lock
+
+# ==============================
+# Secrets & Config
+# ==============================
+.env
+*.env
+*.key
+*.pem
+
+# ==============================
+# OS & IDE files
+# ==============================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.code-workspace
